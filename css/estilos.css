@@ -1,0 +1,135 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .header {
+    border: 1px solid rgb(8, 1, 100);
+    padding: 15px;
+    background-color: rgb(210, 176, 241);
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px solid rgb(8, 1, 100);
+  }
+  
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 16%;
+        background-color: rgba(31, 0, 207, 0.356);}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 84%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+
+/*Imagen*/
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    top:10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  
+  }
+
+
+  
+/* Estilos de fuentes */
+
+#Nombre
+    { 
+        color: darkslateblue;
+        font-size: 45px;
+        font-weight: 700;
+        text-align:center;
+        font-family: 'Roboto', sans-serif;
+
+    }  
+
+#Contacto
+{
+    color: darkslateblue;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+
+}
+
+.datoscontacto
+{
+    font-style:italic;
+    color: darkslateblue;
+    font-weight: 300;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align:center;
+    
+}
+
+.Tdatospersonales
+    {
+        color: rgb(255, 255, 255);
+        font-size: 22px;
+        font-family: 'Phudu', cursive; 
+        border: 10px;
+
+    }
+
+.datospersonales
+    {
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+        font-family: 'Phudu', cursive; 
+
+    }
+
+.EncabezadosPrincipales
+{
+    color: darkslateblue;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.EncabezadosSeccionales
+{
+    color: darkslateblue;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    border: 10px;
+
+
+}
+
+.InfoAdicional
+{
+    color: darkslateblue;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+
+}
+
