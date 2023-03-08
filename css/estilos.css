@@ -36,7 +36,7 @@
   .col-12 {width: 100%;}
 
 
-/*Imagen*/
+/*Imagenes*/
 
 img{
     width: 150px;
@@ -49,7 +49,12 @@ img{
     width: 50%;
   
   }
+ .icono{
+    width: 15px;
+    height: 15px;
+    top: 15px;
 
+ }  
 
   
 /* Estilos de fuentes */
