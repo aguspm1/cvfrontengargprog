@@ -48,9 +48,15 @@
     margin-right: auto;
     width: 50%;
   
+}
 
+.iconos
+{
+width: 100px;
+height: 100px;
+top: 100px;
+}
 
-  
 /* Estilos de fuentes */
 
 #Nombre
