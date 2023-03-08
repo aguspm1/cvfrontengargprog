@@ -38,7 +38,7 @@
 
 /*Imagenes*/
 
-img{
+.imagenperfil{
     width: 150px;
     height: 150px;
     border-radius: 100%;
@@ -48,13 +48,7 @@ img{
     margin-right: auto;
     width: 50%;
   
-  }
- .icono{
-    width: 15px;
-    height: 15px;
-    top: 15px;
 
- }  
 
   
 /* Estilos de fuentes */
