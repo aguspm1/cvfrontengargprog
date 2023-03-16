@@ -1,4 +1,4 @@
-//Botones para ver las referencias del CV
+//Botones para ver las referencias del CV.
 
 
 document.getElementById('botonReferencia1').onclick = function (){
